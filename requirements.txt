@@ -1,3 +1,5 @@
+gpiozero
 RPi.GPIO
 flask
 psutil
+PWMLED
