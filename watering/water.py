@@ -7,6 +7,12 @@ init = False
 
 GPIO.setmode(GPIO.BOARD) # Broadcom pin-numbering scheme
 
+def get_soil_moisture(channel, interval_for_readings=0.0001):
+	import spidev
+	import time
+
+	pass
+
 def get_last_watered():
 	try:
 		f = open("last_watered.txt", "r")
