@@ -20,7 +20,7 @@ void setup() {
 void loop() {
 
 	Serial.print("MOISTURE LEVEL1:");
-	value1 = ((analogRead(Pin1) * -1) + 382) / 3;
+	value1 = ((analogRead(Pin1) * -1) + 405) / 3;
 	Serial.println(value1);
 	if(value1>750)
 	{
